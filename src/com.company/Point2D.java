@@ -13,6 +13,14 @@ public class Point2D {
                 '}';
     }
 
+    public double getX() {
+        return x;
+    }
+
+    public double getY() {
+        return y;
+    }
+
     public Point2D(double y, double x){
         this.y=y;
         this.x=x;

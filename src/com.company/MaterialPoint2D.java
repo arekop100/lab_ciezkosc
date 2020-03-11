@@ -13,6 +13,10 @@ public class MaterialPoint2D extends Point2D{
                 '}';
     }
 
+    public double getMass() {
+        return mass;
+    }
+
     public MaterialPoint2D (double x, double y, double mass){
         super(x,y);
         this.mass=mass;
